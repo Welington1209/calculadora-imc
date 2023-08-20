@@ -16,6 +16,10 @@ form.addEventListener('submit', function(event) {
 
    document.getElementById('infos').classList.remove('none');
 
+   
+   document.getElementById('img').classList.add('none');
+   document.getElementById('img2').classList.remove('none');
+
    if (bmi < 18.5) {
     description = 'Cuidado você está abaixo do peso!'
    }else if (bmi >= 18.5 && bmi <= 25 ) {
